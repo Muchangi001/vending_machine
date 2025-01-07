@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./fonts/Pacifico-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Modak';
+    src: url('./fonts/Modak-Regular.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+#brand {
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f8587b;
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+}
+
+a {
+    color: #f8587b;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #f8587b;
+    text-decoration: none;
+}
+
+.always {
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    display: inline-block;
+    width: 300px;
+    height: 200px;;
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: #f8587b;
+    font-family: "Pacifico", serif;
+    font-size: 3rem;
+}
+
+.always_stock {
+    position: absolute;
+    left: 100px;
+    top: 270px;
+    color: whitesmoke;
+    font-family: "Modak", serif;
+    font-size: 2rem;
+}
+
+.kotex {
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    display: inline-block;
+    width: 300px;
+    height: 200px;;
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: #f8587b;
+    font-family: "Pacifico", serif;
+    font-size: 3rem;
+}
+
+.kotex_stock {
+    position: absolute;
+    right: 100px;
+    top: 270px;
+    color: whitesmoke;
+    font-family: "Modak", serif;
+    font-size: 2rem;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back_btn {
+    position: absolute;
+    bottom: 50px;
+    margin: 0 auto; /* centering */
+    display: inline-block;
+    width: 300px;
+    height: 200px;;
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    color: #f8587b;
+    font-family: "Pacifico", serif;
+    font-size: 3rem;
+}
