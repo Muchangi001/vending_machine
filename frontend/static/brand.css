@@ -49,6 +49,15 @@ a:visited {
     color: #f8587b;
     font-family: "Pacifico", serif;
     font-size: 3rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), 
+                -4px -4px 8px rgba(255, 255, 255, 0.3); /* 3D shadow */
+    transition: all 0.3s ease;
+}
+
+.always:active {
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.2); /* Inner shadow for pressed effect */
+    transform: translateY(4px); /* Simulate button press */
+    background-color: #f0f0f0; /* Slightly darker background to indicate press */
 }
 
 .always_stock {
@@ -73,6 +82,15 @@ a:visited {
     color: #f8587b;
     font-family: "Pacifico", serif;
     font-size: 3rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), 
+                -4px -4px 8px rgba(255, 255, 255, 0.3); /* 3D shadow */
+    transition: all 0.3s ease;
+}
+
+.kotex:active {
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.2); /* Inner shadow for pressed effect */
+    transform: translateY(4px); /* Simulate button press */
+    background-color: #f0f0f0; /* Slightly darker background to indicate press */
 }
 
 .kotex_stock {
@@ -103,4 +121,13 @@ a:visited {
     color: #f8587b;
     font-family: "Pacifico", serif;
     font-size: 3rem;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), 
+                -4px -4px 8px rgba(255, 255, 255, 0.3); /* 3D shadow */
+    transition: all 0.3s ease;
+}
+
+.back_btn:active {
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.2); /* Inner shadow for pressed effect */
+    transform: translateY(4px); /* Simulate button press */
+    background-color: #f0f0f0; /* Slightly darker background to indicate press */
 }

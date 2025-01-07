@@ -74,6 +74,19 @@ p {
     position: relative;
     left: 175px;
     bottom: 25px;
+    animation: pulse 1.2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .brand {
@@ -110,4 +123,13 @@ p {
     display: inline-block;
     width: 300px;
     height: 100px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2), 
+                -4px -4px 8px rgba(255, 255, 255, 0.3); /* 3D shadow */
+    transition: all 0.3s ease;
+}
+
+.brand_btn:active {
+    box-shadow: inset 2px 2px 6px rgba(0, 0, 0, 0.2); /* Inner shadow for pressed effect */
+    transform: translateY(4px); /* Simulate button press */
+    background-color: #f0f0f0; /* Slightly darker background to indicate press */
 }
