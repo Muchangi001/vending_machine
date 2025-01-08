@@ -15,7 +15,7 @@ class Api:
         }
         return {
                 "month_name": self.current_time.strftime("%B"), # month name specifier -> %B
-                "day_name": self.abbreviated_day_name[f"{self.current_time.strftime("%A")}"], # weekday name specifier -> %A
+                "day_name": self.abbreviated_day_name[self.current_time.strftime("%A")], # weekday name specifier -> %A
                 "day_date": self.current_time.day,
                 "hour": self.current_time.hour,
                 "minute": self.current_time.minute
