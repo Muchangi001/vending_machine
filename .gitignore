@@ -1,3 +1,2 @@
 .venv
 pyinstaller/*
-frontend/node_modules
