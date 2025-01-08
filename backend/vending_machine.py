@@ -22,5 +22,5 @@ class Api:
         }
     
 api = Api()
-webview.create_window("muchangi", url="http://127.0.0.1:5500/frontend/assets/html/home.html", width=1024, height=600, js_api=api, frameless=True)
+webview.create_window("muchangi", url="file:///home/andrew/python/vending_machine/frontend/assets/html/home.html", width=1024, height=600, js_api=api, frameless=True)
 webview.start()
