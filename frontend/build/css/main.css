@@ -606,6 +606,20 @@ video {
   width: 100vw;
 }
 
+@keyframes gentleFloat {
+  0%, 100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-gentleFloat {
+  animation: gentleFloat 4s ease-in-out infinite;
+}
+
 @keyframes gentlePulse {
   0%, 100% {
     transform: scale(1);
@@ -618,6 +632,20 @@ video {
 
 .animate-gentlePulse {
   animation: gentlePulse 2s ease-in-out infinite;
+}
+
+@keyframes gentleGlow {
+  0%, 100% {
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4), 0 0 15px #f8587b;
+  }
+
+  50% {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6), 0 0 25px #f8587b;
+  }
+}
+
+.animate-gentleGlow {
+  animation: gentleGlow 3s ease-in-out infinite;
 }
 
 .grid-cols-2 {
